@@ -1,7 +1,5 @@
 # Training-Plan
 
-## Executives
-
 <details>
   <summary>Frontend</summary>
 
