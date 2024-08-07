@@ -27,3 +27,5 @@
 
 
 ### Typescript [playlist](https://youtube.com/playlist?list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW&si=YEZ5jDc1pdjp7OUS), watch till lecture 15.
+
+### Github course [playlist](https://youtu.be/q8EevlEpQ2A?si=IJvy7ujVB-S-PvK9)
