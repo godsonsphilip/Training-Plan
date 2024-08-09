@@ -66,6 +66,14 @@
      sudo apt upgrade
      ```
      NOTE: It will ask for your password, just type it and press enter.
+
+  8. In future, when you need to increase the RAM and swap space of your WSL, you have to create a file in the location, `C:\Users\<UserName>\.wslconfig`. Make sure this file name should be only `.wslconfig`, but not `.wslconfig.txt`. Contents of the file would be:
+     ```
+     [wsl2]
+     memory=4GB
+     swap=8GB
+     ```
+     NOTE: You can't increase your memory more than the available memory in your system.
   
 </details>
 
