@@ -23,6 +23,52 @@
 
 </details>
 
+<details>
+  <summary>WSL Installation in Windows 11</summary>
+  
+  What is WSL -> [Link](https://learn.microsoft.com/en-us/windows/wsl/about)
+  ### Installation steps
+  1. Open CMD or Powershell with administrator and run the following commands:
+    ```bash
+    wsl --install
+    ```
+
+  2. Preferred distribution is Ubuntu, so to install Ubuntu in WSL, run:
+     ```bash
+     wsl --install -d Ubuntu
+     ```
+     
+  3. If you prefer some other distribution, you can run the following command and select your desired distribution:
+     ```bash
+     wsl --list --online
+     ```
+
+  4. Restart your PC after the above steps. Ubuntu or your selected Linux distribution will be installed.
+  5. You can run it by running this in your terminal:
+     ```bash
+     wsl -d Ubuntu
+     ```
+     OR
+     ```bash
+     wsl -d <Distribution Name>
+     ```
+     To list all the distributions installed, you can run:
+     ```bash
+     wsl -l -v
+     ```
+  7. Then it will ask for a basic setup like your username and password.
+  8. Before installing anything, update and upgrade your Linux by running,
+     ```bash
+     sudo apt update
+     ```
+     Then run,
+     ```bash
+     sudo apt upgrade
+     ```
+     NOTE: It will ask for your password, just type it and press enter.
+  
+</details>
+
 
 ### Typescript [playlist](https://youtube.com/playlist?list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW&si=YEZ5jDc1pdjp7OUS), watch till lecture 15.
 
