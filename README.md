@@ -24,7 +24,7 @@
 </details>
 
 <details>
-  <summary>WSL Installation in Windows 11</summary>
+  <summary>WSL installation in Windows 11</summary>
   
   What is WSL -> [Link](https://learn.microsoft.com/en-us/windows/wsl/about)
   ### Installation steps
