@@ -43,7 +43,7 @@
      wsl --list --online
      ```
 
-  4. Restart your PC after the above steps. Ubuntu or your selected Linux distribution will be installed.
+  4. Restart your PC after the above steps. Ubuntu or your selected Linux distribution will be installed. A terminal will open automatically and it will ask for your username and password for the new Linux system.
   5. You can run it by running this in your terminal:
      ```bash
      wsl -d Ubuntu
@@ -56,8 +56,7 @@
      ```bash
      wsl -l -v
      ```
-  6. Then it will ask for a basic setup like your username and password.
-  7. Before installing anything, update and upgrade your Linux by running,
+  6. Before installing anything, update and upgrade your Linux by running,
      ```bash
      sudo apt update
      ```
@@ -67,7 +66,7 @@
      ```
      NOTE: It will ask for your password, just type it and press enter.
 
-  8. In future, when you need to increase the RAM and swap space of your WSL, you have to create a file in the location, `C:\Users\<UserName>\.wslconfig`. Make sure this file name should be only `.wslconfig`, but not `.wslconfig.txt`. Contents of the file would be:
+  7. In future, when you need to increase the RAM and swap space of your WSL, you have to create a file in the location, `C:\Users\<UserName>\.wslconfig`. Make sure this file name should be only `.wslconfig`, but not `.wslconfig.txt`. Contents of the file would be:
      ```
      [wsl2]
      memory=4GB
