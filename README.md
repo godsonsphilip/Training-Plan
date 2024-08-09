@@ -29,9 +29,9 @@
   What is WSL -> [Link](https://learn.microsoft.com/en-us/windows/wsl/about)
   ### Installation steps
   1. Open CMD or Powershell with administrator and run the following commands:
-    ```bash
-    wsl --install
-    ```
+     ```bash
+     wsl --install
+     ```
 
   2. Preferred distribution is Ubuntu, so to install Ubuntu in WSL, run:
      ```bash
@@ -56,8 +56,8 @@
      ```bash
      wsl -l -v
      ```
-  7. Then it will ask for a basic setup like your username and password.
-  8. Before installing anything, update and upgrade your Linux by running,
+  6. Then it will ask for a basic setup like your username and password.
+  7. Before installing anything, update and upgrade your Linux by running,
      ```bash
      sudo apt update
      ```
